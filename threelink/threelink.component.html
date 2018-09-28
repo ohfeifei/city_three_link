@@ -1,0 +1,14 @@
+<div class="row" >
+  <select id="s_province" name="省份"  [(ngModel)]="provinceindex" (change)=" getProvinceOptions($event.target.value)" class="col-md-4">
+    <option  [value]="-1">所有</option>
+    <option *ngFor="let option of provinces;index as i" [value]="i" >{{option}}</option>
+  </select>
+  <select id="s_city" name="地级市"  [(ngModel)]="cityindex" (change)=" getCityOptions($event.target.value)" class="col-md-4">
+    <option  [value]="-1">所有</option>
+    <option *ngFor="let option of citys;index as i" [value]="i">{{option}}</option>
+  </select>
+  <select id="s_county" name="区县"  [(ngModel)]="zoneindex" (change)=" getZoneOptions($event.target.value)" class="col-md-4">
+    <option  [value]="-1">所有</option>
+    <option *ngFor="let option of zones;index as i" [value]="i">{{option}}</option>
+  </select>
+</div>
