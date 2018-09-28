@@ -1,7 +1,7 @@
 # city_three_link
 angular2+ Directive typescript
 
-地区数据来自https://github.com/itmyhome2013/national-cities-three-linkage,做了angular2 directive封装，包含全国大多数省市区
+地区数据来自https://github.com/itmyhome2013/national-cities-three-linkage, 做了angular2 directive封装，包含全国大多数省市区
 
 使用
 
