@@ -1,4 +1,9 @@
-<div class="row" >
+<div class="row">
+  <div class="col-md-4" style="font-size: 10px; color: grey">请选择省份</div>
+  <div class="col-md-4" style="font-size: 10px; color: grey">请选择城市</div>
+  <div class="col-md-4" style="font-size: 10px; color: grey">请选择县区</div>
+</div>
+<div class="row">
   <select id="s_province" name="省份"  [(ngModel)]="provinceindex" (change)=" getProvinceOptions($event.target.value)" class="col-md-4">
     <option  [value]="-1">所有</option>
     <option *ngFor="let option of provinces;index as i" [value]="i" >{{option}}</option>
