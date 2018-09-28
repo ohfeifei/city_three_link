@@ -15,3 +15,5 @@ angular2+ Directive typescript
     console.log(e); //{ province: "重庆市", city: "重庆市", zone: "江北区" }
   }
   
+  ![image](https://github.com/ohfeifei/city_three_link/blob/master/Screenshot%20from%202018-09-28%2011-38-07.png)
+  
